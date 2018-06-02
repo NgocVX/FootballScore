@@ -17,10 +17,10 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="#FF7043"
             android:orientation="vertical"
             android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:background="#FF7043">
+            android:paddingRight="10dp">
 
             <TextView
                 android:layout_width="match_parent"
@@ -155,10 +155,10 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="#FFEB3B"
             android:orientation="vertical"
             android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:background="#FFEB3B">
+            android:paddingRight="10dp">
 
             <TextView
                 android:layout_width="match_parent"

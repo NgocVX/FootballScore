@@ -1,7 +1,7 @@
 package com.ngoc_vx.footballscore;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addGoalForTeamB(View view) {
-        goalTeamB = goalTeamB +1;
+        goalTeamB = goalTeamB + 1;
         displayGoalForTeamB(goalTeamB);
     }
 
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         displayRedCardForTeamB(redCardTeamB);
     }
 
-    private void displayRedCardForTeamB (int card) {
+    private void displayRedCardForTeamB(int card) {
         TextView redCardView = findViewById(R.id.team_b_red_card);
         redCardView.setText(String.valueOf(card));
     }
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         displayYellowCardForTeamA(yellowCardTeamA);
     }
 
-    private void displayYellowCardForTeamA (int card) {
+    private void displayYellowCardForTeamA(int card) {
         TextView yellowCardView = findViewById(R.id.team_a_yellow_card);
         yellowCardView.setText(String.valueOf(card));
     }
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
         displayCornerForTeamB(cornerTeamB);
     }
 
-    private  void displayCornerForTeamB(int corner) {
+    private void displayCornerForTeamB(int corner) {
         TextView cornerView = findViewById(R.id.team_b_corner);
         cornerView.setText(String.valueOf(corner));
     }
